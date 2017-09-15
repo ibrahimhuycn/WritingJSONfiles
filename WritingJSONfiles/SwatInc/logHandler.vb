@@ -1,6 +1,6 @@
 
 Namespace SwatInc
-    Public Class LogTempStore
+    Public Class logHandler
         Public Sub New(ByVal LogClassification As String, ByVal ExLogDateTime As DateTime, ByVal TargetSite As String, ByVal GetExType As String, ByVal ExMessage As String, ByVal StackTrace As String, Optional HelpLink As String = Nothing)
             Log_Classification = LogClassification
             Ex_Log_DateTime = ExLogDateTime
@@ -11,7 +11,7 @@ Namespace SwatInc
             Help_Link = HelpLink
         End Sub
         Public Property Log_Classification() As String
-        Public Property Ex_Log_DateTime() As String
+        Public Property Ex_Log_DateTime() As DateTime
         Public Property Target_Site() As String
         Public Property Get_Ex_Type() As String
         Public Property Ex_Message() As String

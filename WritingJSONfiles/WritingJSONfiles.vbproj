@@ -97,10 +97,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="ReadWriteJSON.vb" />
     <Compile Include="SwatInc\LogProcessing.vb" />
     <Compile Include="SwatInc\LogClassification.vb" />
-    <Compile Include="SwatInc\LogTempStore.vb" />
+    <Compile Include="SwatInc\logHandler.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="GenerateException.resx">

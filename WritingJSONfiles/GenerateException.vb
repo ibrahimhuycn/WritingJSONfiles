@@ -1,7 +1,7 @@
 ﻿
 Public Class GenerateException
     Private Sub GenerateException_Load(sender As Object, e As EventArgs) Handles Me.Load
-        Dim er As SwatInc.LogProcessing
+
         Try
             Dim s(1) As String
             s(5) = "Ibrahim"
