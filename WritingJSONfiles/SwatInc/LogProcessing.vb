@@ -58,7 +58,7 @@ Namespace SwatInc
             'OUTPUT THE LOGS TO DISK- TO A PREDEFINED LOCATION
             File.AppendAllText(String.Format("{0}{1:yyyyMMdd HHmmss.ffff}.JSON", LoggingDirectory, Convert.ToDateTime(ExLogDateTime)), SerialisedJsonString)
 
-            MsgBox(exMessage)    'NOTIFY THE ENDUSER ABOUT THE ERROR
+            ' MsgBox(exMessage)    'NOTIFY THE ENDUSER ABOUT THE ERROR
 
         End Sub
 
